@@ -14,10 +14,10 @@ const (
 
 func main() {
 	config := &ssh.ClientConfig{
-		User:            "root",
+		User:            "abser",
 		HostKeyCallback: ssh.InsecureIgnoreHostKey(),
 		Auth: []ssh.AuthMethod{
-			ssh.Password("your password here"),
+			ssh.Password("119216"),
 		},
 	}
 
